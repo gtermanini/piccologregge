@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html>
+ <html>
  <head>
  <title>Diretta Streaming</title>
- <script type=”text/javascript” src=”//cdn.jsdelivr.net/afterglow/latest/afterglow.min.js”></script>
  </head>
  <body>
- <video class=”afterglow” id=”myvideo” width=”1280" height=”720">
+<video
+ id=”my-player”
+ class=”video-js”
+ controls
+ preload=”auto”
+ poster=”//vjs.zencdn.net/v/oceans.png”
+ data-setup=’{}’>
  <source src="https://stream.mariatvcdn.com/parrocchiafontana/fc656f6aa60e689985f7999b704ca1cb.sdp/playlist.m3u8" type="application/x-mpegURL">
- </video>
+ <p class=”vjs-no-js”>
+ To view this video please enable JavaScript, and consider upgrading to a web browser that
+ <a href=”http://videojs.com/html5-video-support/” target=”_blank”>
+ supports HTML5 video
+ </a>
+ </p>
+</video>
  </body>
 <html>
+ 
+ 
